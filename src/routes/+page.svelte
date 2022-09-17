@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Team from "../components/Team.svelte"
+	import Team from "$lib/components/Team.svelte"
 	import GitHubIcon from 'svelte-icons/go/GoMarkGithub.svelte';
 	import InstagramIcon from 'svelte-icons/fa/FaInstagram.svelte';
 	import TwitterIcon from 'svelte-icons/fa/FaTwitter.svelte';

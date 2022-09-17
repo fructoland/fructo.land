@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { team } from "../lib/team";
+	import { team } from "$lib/data/team";
 </script>
 
 <div
