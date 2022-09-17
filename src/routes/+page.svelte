@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Team from "../components/Team.svelte"
 	import GoMarkGithub from 'svelte-icons/go/GoMarkGithub.svelte';
 	import FaInstagram from 'svelte-icons/fa/FaInstagram.svelte';
 </script>
@@ -62,3 +63,5 @@
 		</p>
 	</div>
 </div>
+
+<Team />
