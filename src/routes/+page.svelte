@@ -1,7 +1,8 @@
 <script lang="ts">
 	import Team from "../components/Team.svelte"
-	import GoMarkGithub from 'svelte-icons/go/GoMarkGithub.svelte';
-	import FaInstagram from 'svelte-icons/fa/FaInstagram.svelte';
+	import GitHubIcon from 'svelte-icons/go/GoMarkGithub.svelte';
+	import InstagramIcon from 'svelte-icons/fa/FaInstagram.svelte';
+	import TwitterIcon from 'svelte-icons/fa/FaTwitter.svelte';
 </script>
 
 <div
@@ -26,14 +27,21 @@
 			alt="GitHub"
 			class="w-8 h-8"
 		>
-			<GoMarkGithub />
+			<GitHubIcon />
 		</a>
 		<a
 			href="https://instagram.com/fructoland"
 			alt="Instagram"
 			class="w-8 h-8"
 		>
-			<FaInstagram />
+			<InstagramIcon />
+		</a>
+		<a
+			href="https://twitter.com/fructoland"
+			alt="Instagram"
+			class="w-8 h-8"
+		>
+			<TwitterIcon />
 		</a>
 	</div>
 </div>
