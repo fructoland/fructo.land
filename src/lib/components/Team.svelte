@@ -12,7 +12,7 @@
 	</h2>
 
 	<div
-		class="flex flex-row justify-center"
+		class="flex flex-row gap-4 justify-center"
 	>
 		{#each team as member}
 			<div>
@@ -21,12 +21,12 @@
 					alt={member.name}
 					class="w-32 h-32 rounded-full mx-auto"
 				/>
-				<p>
+				<p class="mt-2">
 					{member.name}
 				</p>
 				<a 
 					href={`mailto:${member.email}`}
-					class="opacity-50"
+					class="opacity-50 text-sm"
 				>
 					{member.email}
 				</a>
