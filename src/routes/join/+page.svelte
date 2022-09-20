@@ -31,6 +31,9 @@
 		<li>
 			Translator
 		</li>
+		<li>
+			Teter
+		</li>
 	</ul>
 	<div>
 		For more information: <a href="https://instagram.com/fructoland" class="text-red-500">Instagram</a>, <a href="https://twitter.com/fructoland" class="text-blue-500">Twitter</a> or <a href="mailto:savin@fructo.land" class="text-yellow-500">Email</a>
