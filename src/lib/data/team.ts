@@ -8,5 +8,10 @@ export const team = [
 		name: "Bokoch Andreia",
 		avatar: "/team/andreia.png",
 		email: "andreia@fructo.land"
+	},
+	{
+		name: "Obeloiu Stefania",
+		avatar: "/team/stefania.png",
+		email: "stefania@fructo.land"
 	}
 ]
