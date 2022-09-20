@@ -32,7 +32,7 @@
 			Translator
 		</li>
 		<li>
-			Teter
+			Tester
 		</li>
 	</ul>
 	<div>
