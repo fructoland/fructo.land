@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { team } from "$lib/data/team";
+	import Button from "./Button.svelte";
 </script>
 
 <div
@@ -33,4 +34,11 @@
 			</div>
 		{/each}
 	</div>
+	<a
+		href="/join"
+	>
+		<Button class="mt-2">
+			Join us
+		</Button>
+	</a>
 </div>

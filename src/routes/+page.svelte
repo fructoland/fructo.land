@@ -1,5 +1,6 @@
 <script lang="ts">
-	import Team from "$lib/components/Team.svelte"
+	import Team from "$lib/components/Team.svelte";
+	import Container from "$lib/components/Container.svelte";
 	import GitHubIcon from 'svelte-icons/go/GoMarkGithub.svelte';
 	import InstagramIcon from 'svelte-icons/fa/FaInstagram.svelte';
 	import TwitterIcon from 'svelte-icons/fa/FaTwitter.svelte';
@@ -46,8 +47,8 @@
 	</div>
 </div>
 
-<div
-	class="grid grid-cols-1 grid-flow-cols max-w-lg mx-auto sm:grid-cols-2 justify-center gap-4 p-4"
+<Container
+	class="grid grid-cols-1 grid-flow-cols sm:grid-cols-2 justify-center gap-4"
 >
 	<div>
 		<h2 class="text-2xl">
@@ -70,6 +71,6 @@
 			using the future of web.
 		</p>
 	</div>
-</div>
+</Container>
 
 <Team />
