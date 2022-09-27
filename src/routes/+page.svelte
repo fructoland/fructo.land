@@ -3,6 +3,7 @@
 	import Container from "$lib/components/Container.svelte";
 	import GitHubIcon from 'svelte-icons/go/GoMarkGithub.svelte';
 	import InstagramIcon from 'svelte-icons/fa/FaInstagram.svelte';
+	import FacebookIcon from 'svelte-icons/fa/FaFacebook.svelte';
 	import TwitterIcon from 'svelte-icons/fa/FaTwitter.svelte';
 </script>
 
@@ -24,16 +25,18 @@
 	</p>
 	<div class="flex justify-center items-center gap-2 mt-4 opacity-75">
 		<a
-			href="https://github.com/fructoland"
-			alt="GitHub"
+			href="https://facebook.com/fructoland"
+			alt="Facebook"
 			class="w-8 h-8"
+			target="_blank"
 		>
-			<GitHubIcon />
+			<FacebookIcon />
 		</a>
 		<a
 			href="https://instagram.com/fructoland"
 			alt="Instagram"
 			class="w-8 h-8"
+			target="_blank"
 		>
 			<InstagramIcon />
 		</a>
@@ -41,8 +44,17 @@
 			href="https://twitter.com/fructoland"
 			alt="Instagram"
 			class="w-8 h-8"
+			target="_blank"
 		>
 			<TwitterIcon />
+		</a>
+		<a
+			href="https://github.com/fructoland"
+			alt="GitHub"
+			class="w-8 h-8"
+			target="_blank"
+		>
+			<GitHubIcon />
 		</a>
 	</div>
 </div>
