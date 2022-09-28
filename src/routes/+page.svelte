@@ -5,6 +5,7 @@
 	import InstagramIcon from 'svelte-icons/fa/FaInstagram.svelte';
 	import FacebookIcon from 'svelte-icons/fa/FaFacebook.svelte';
 	import TwitterIcon from 'svelte-icons/fa/FaTwitter.svelte';
+	import Card from "../lib/components/Card.svelte";
 </script>
 
 <div
@@ -83,6 +84,33 @@
 			using the future of web.
 		</p>
 	</div>
+</Container>
+<Container>
+	<h2 class="text-2xl">
+		Our projects
+	</h2>
+	<a 
+		href="https://paquet.shop"
+		target="_blank"
+		alt="Paquet App"
+	>
+		<Card
+			class="relative h-64"
+		>
+			<img 
+				src="/projects/paquet.png" 
+				alt="Paquet"
+				class="w-full h-full object-contain"
+			/>
+			<div
+				class="absolute w-full h-1/2 top-32 left-0 bg-gradient-to-b from-transparent via-black/25 to-black/50"
+			>
+				<h3 class="absolute bottom-4 left-4 text-3xl text-white">
+					Paquet
+				</h3>
+			</div>
+		</Card>
+	</a>
 </Container>
 
 <Team />
