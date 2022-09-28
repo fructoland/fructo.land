@@ -4,6 +4,7 @@
 </script>
 
 <Navbar />
+
 <img
 	src="/illustrations/hire.svg"
 	class="max-w-screen-sm mx-auto"

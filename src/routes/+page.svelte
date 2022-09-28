@@ -1,64 +1,11 @@
 <script lang="ts">
 	import Team from "$lib/components/Team.svelte";
 	import Container from "$lib/components/Container.svelte";
-	import GitHubIcon from 'svelte-icons/go/GoMarkGithub.svelte';
-	import InstagramIcon from 'svelte-icons/fa/FaInstagram.svelte';
-	import FacebookIcon from 'svelte-icons/fa/FaFacebook.svelte';
-	import TwitterIcon from 'svelte-icons/fa/FaTwitter.svelte';
 	import Card from "../lib/components/Card.svelte";
+	import Header from "./Header.svelte";
 </script>
 
-<div
-	class="w-full text-center bg-gradient-to-tr from-red-200 via-yellow-200 to-green-200 p-4 rounded-b-3xl"
->
-	<img 
-		src="/logo-512x512.png" 
-		alt="Fructo logo"
-		class="w-64 h-64 mx-auto rounded-full"
-	/>
-	<h1
-		class="text-3xl mt-2"
-	>
-		Fructo
-	</h1>
-	<p class="opacity-75">
-		We make useful things
-	</p>
-	<div class="flex justify-center items-center gap-2 mt-4 opacity-75">
-		<a
-			href="https://facebook.com/fructoland"
-			alt="Facebook"
-			class="w-8 h-8"
-			target="_blank"
-		>
-			<FacebookIcon />
-		</a>
-		<a
-			href="https://instagram.com/fructoland"
-			alt="Instagram"
-			class="w-8 h-8"
-			target="_blank"
-		>
-			<InstagramIcon />
-		</a>
-		<a
-			href="https://twitter.com/fructoland"
-			alt="Instagram"
-			class="w-8 h-8"
-			target="_blank"
-		>
-			<TwitterIcon />
-		</a>
-		<a
-			href="https://github.com/fructoland"
-			alt="GitHub"
-			class="w-8 h-8"
-			target="_blank"
-		>
-			<GitHubIcon />
-		</a>
-	</div>
-</div>
+<Header />
 
 <Container
 	class="grid grid-cols-1 grid-flow-cols sm:grid-cols-2 justify-center gap-4"
