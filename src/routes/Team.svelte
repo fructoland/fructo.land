@@ -1,6 +1,6 @@
 <script lang="ts">
+	import { t } from "$lib/translations";
 	import { team } from "$lib/data/team";
-	import Button from "./Button.svelte";
 </script>
 
 <div
@@ -9,7 +9,7 @@
 	<h2
 		class="text-2xl"
 	>
-		Our team
+		{$t("home.team.title")}
 	</h2>
 
 	<div
@@ -34,11 +34,4 @@
 			</div>
 		{/each}
 	</div>
-	<a
-		href="/join"
-	>
-		<Button class="mt-2">
-			Join us
-		</Button>
-	</a>
 </div>
