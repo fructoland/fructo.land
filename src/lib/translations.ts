@@ -13,6 +13,12 @@ const config: Config = {
 			key: "home",
 			routes: ["/"],
 			loader: async () => (await import("./i18n/ru/home.json")).default
+		},
+		{
+			locale: "ua",
+			key: "home",
+			routes: ["/"],
+			loader: async () => (await import("./i18n/ua/home.json")).default
 		}
 	]
 }
