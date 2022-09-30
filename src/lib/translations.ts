@@ -7,6 +7,12 @@ const config: Config = {
 			key: "home",
 			routes: ["/"],
 			loader: async () => (await import("./i18n/en/home.json")).default
+		},
+		{
+			locale: "ru",
+			key: "home",
+			routes: ["/"],
+			loader: async () => (await import("./i18n/ru/home.json")).default
 		}
 	]
 }
