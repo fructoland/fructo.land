@@ -15,12 +15,18 @@ const config: Config = {
 			loader: async () => (await import("./i18n/ru/home.json")).default
 		},
 		{
-			locale: "ua",
+			locale: "uk",
 			key: "home",
 			routes: ["/"],
 			loader: async () => (await import("./i18n/ua/home.json")).default
 		}
 	]
+}
+
+export const languages: Record<string, string> = {
+	"en": "english",
+	"ru": "russian",
+	"uk": "ukrainian"
 }
 
 export const { t, locale, locales, loading, loadTranslations } = new i18n(config);
