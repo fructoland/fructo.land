@@ -9,16 +9,31 @@ const config: Config = {
 			loader: async () => (await import("./i18n/en/home.json")).default
 		},
 		{
+			locale: "en",
+			key: "common",
+			loader: async () => (await import("./i18n/en/common.json")).default
+		},
+		{
 			locale: "ru",
 			key: "home",
 			routes: ["/"],
 			loader: async () => (await import("./i18n/ru/home.json")).default
 		},
 		{
+			locale: "ru",
+			key: "common",
+			loader: async () => (await import("./i18n/ru/common.json")).default
+		},
+		{
 			locale: "uk",
 			key: "home",
 			routes: ["/"],
-			loader: async () => (await import("./i18n/ua/home.json")).default
+			loader: async () => (await import("./i18n/uk/home.json")).default
+		},
+		{
+			locale: "uk",
+			key: "common",
+			loader: async () => (await import("./i18n/uk/common.json")).default
 		}
 	]
 }

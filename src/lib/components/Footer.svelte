@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { locale, locales, languages } from "$lib/translations";
+	import { t, locale, locales, languages } from "$lib/translations";
 	import Container from "./Container.svelte";
 
 	function changeTo(lang: string) {
@@ -13,7 +13,7 @@
 		<h2
 			class="text-2xl"
 		>
-			Read in your language
+			{$t("common.translation.title")}
 		</h2>
 		{#each locales.get() as lang}
 			<!-- svelte-ignore a11y-invalid-attribute -->
