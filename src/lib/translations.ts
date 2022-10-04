@@ -34,6 +34,17 @@ const config: Config = {
 			locale: "uk",
 			key: "common",
 			loader: async () => (await import("./i18n/uk/common.json")).default
+		},
+		{
+			locale: "ro",
+			key: "home",
+			routes: ["/"],
+			loader: async () => (await import("./i18n/ro/home.json")).default
+		},
+		{
+			locale: "ro",
+			key: "common",
+			loader: async () => (await import("./i18n/ro/common.json")).default
 		}
 	]
 }
@@ -41,7 +52,8 @@ const config: Config = {
 export const languages: Record<string, string> = {
 	"en": "english",
 	"ru": "russian",
-	"uk": "ukrainian"
+	"uk": "ukrainian",
+	"ro": "romanian"
 }
 
 export const { t, locale, locales, loading, loadTranslations } = new i18n(config);
