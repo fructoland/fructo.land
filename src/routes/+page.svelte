@@ -32,28 +32,56 @@
 	<h2 class="text-2xl">
 		{$t("home.our_projects.title")}
 	</h2>
-	<a 
-		href="https://paquet.shop"
-		target="_blank"
-		alt="Paquet App"
+	<div
+		class="grid grid-cols-1 grid-flow-cols sm:grid-cols-2 justify-center gap-4"
 	>
-		<Card
-			class="relative h-64"
+		<a 
+			class="flex-1"
+			href="https://paquet.shop"
+			target="_blank"
+			alt="Paquet App"
 		>
-			<img 
-				src="/projects/paquet.png" 
-				alt="Paquet"
-				class="w-full h-full object-contain"
-			/>
-			<div
-				class="absolute w-full h-1/2 top-32 left-0 bg-gradient-to-b from-transparent via-black/25 to-black/50"
+			<Card
+				class="relative h-64"
 			>
-				<h3 class="absolute bottom-4 left-4 text-3xl text-white">
-					Paquet
-				</h3>
-			</div>
-		</Card>
-	</a>
+				<img 
+					src="/projects/paquet.png" 
+					alt="Paquet"
+					class="w-full h-full object-contain"
+				/>
+				<div
+					class="absolute w-full h-1/2 top-32 left-0 bg-gradient-to-b from-transparent via-black/25 to-black/50"
+				>
+					<h3 class="absolute bottom-4 left-4 text-3xl text-white">
+						Paquet
+					</h3>
+				</div>
+			</Card>
+		</a>
+		<a 
+			class="flex-1"
+			href="https://miniated.fructo.land"
+			target="_blank"
+			alt="Miniated App"
+		>
+			<Card
+				class="relative h-64"
+			>
+				<img 
+					src="/projects/miniated.png" 
+					alt="Miniated"
+					class="w-full h-full object-contain"
+				/>
+				<div
+					class="absolute w-full h-1/2 top-32 left-0 bg-gradient-to-b from-transparent via-black/25 to-black/50"
+				>
+					<h3 class="absolute bottom-4 left-4 text-3xl text-white">
+						Miniated
+					</h3>
+				</div>
+			</Card>
+		</a>
+	</div>
 </Container>
 
 <Team />
