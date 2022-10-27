@@ -4,6 +4,7 @@
 	import FacebookIcon from "svelte-icons/fa/FaFacebook.svelte";
 	import GitHubIcon from "svelte-icons/fa/FaGithub.svelte";
 	import TwitterIcon from "svelte-icons/fa/FaTwitter.svelte";
+	import DiscordIcon from "svelte-icons/fa/FaDiscord.svelte";
 </script>
 
 <div
@@ -54,6 +55,14 @@
 			target="_blank"
 		>
 			<GitHubIcon />
+		</a>
+		<a
+			href="https://discord.gg/DXKe9aSZh6"
+			alt="Discord"
+			class="w-8 h-8"
+			target="_blank"
+		>
+			<DiscordIcon />
 		</a>
 	</div>
 </div>
