@@ -60,23 +60,23 @@
 		</a>
 		<a 
 			class="flex-1"
-			href="https://miniated.fructo.land"
+			href="https://marker.fructo.land"
 			target="_blank"
-			alt="Miniated App"
+			alt="Marker App"
 		>
 			<Card
 				class="relative h-64"
 			>
 				<img 
-					src="/projects/miniated.png" 
-					alt="Miniated"
+					src="/projects/marker.png" 
+					alt="Marker"
 					class="w-full h-full object-contain"
 				/>
 				<div
 					class="absolute w-full h-1/2 top-32 left-0 bg-gradient-to-b from-transparent via-black/25 to-black/50"
 				>
 					<h3 class="absolute bottom-4 left-4 text-3xl text-white">
-						Miniated
+						Marker
 					</h3>
 				</div>
 			</Card>
