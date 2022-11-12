@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { t } from "$lib/translations";
 	import { team } from "$lib/data/team";
 </script>
 
@@ -9,7 +8,7 @@
 	<h2
 		class="text-2xl"
 	>
-		{$t("home.team.title")}
+		Our members
 	</h2>
 
 	<div

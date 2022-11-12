@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { t } from "$lib/translations";
 	import InstagramIcon from "svelte-icons/fa/FaInstagram.svelte";
 	import FacebookIcon from "svelte-icons/fa/FaFacebook.svelte";
 	import GitHubIcon from "svelte-icons/fa/FaGithub.svelte";
@@ -20,9 +19,9 @@
 	>
 		Fructo
 	</h1>
-	<p class="opacity-75">
-		{$t("home.moto")}
-	</p>
+		<p class="opacity-75">
+			We make useful things
+		</p>
 	<div class="flex justify-center items-center gap-2 mt-4 opacity-75">
 		<a
 			href="https://facebook.com/fructoland"

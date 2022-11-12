@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { t } from "$lib/translations";
 	import Team from "./Team.svelte";
 	import Container from "$lib/components/Container.svelte";
 	import Card from "../lib/components/Card.svelte";
@@ -13,24 +12,28 @@
 >
 	<div>
 		<h2 class="text-2xl">
-			{$t("home.our_mission.title")}
+			Our mission
 		</h2>
 		<p>
-			{$t("home.our_mission.text")}
+			Fructo is an organization that wants to bring back the original
+			objective of technology - to bring information at our fingertips.
+			Our objective is to bring useful information at a glance.
 		</p>
 	</div>
 	<div>
 		<h2 class="text-2xl">
-			{$t("home.how_are_we_doing_it.title")}
+			How are we doing it?
 		</h2>
 		<p>
-			{$t("home.how_are_we_doing_it.text")}
+			We believe in the future of web technology and web apps and the possibilities
+			it brings. That's why we are working hard to bring you useful tech using the
+			future of web.
 		</p>
 	</div>
 </Container>
 <Container>
 	<h2 class="text-2xl">
-		{$t("home.our_projects.title")}
+		Our projects
 	</h2>
 	<div
 		class="grid grid-cols-1 grid-flow-cols sm:grid-cols-2 justify-center gap-4"
