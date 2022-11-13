@@ -24,14 +24,6 @@
 		</p>
 	<div class="flex justify-center items-center gap-2 mt-4 opacity-75">
 		<a
-			href="https://facebook.com/fructoland"
-			alt="Facebook"
-			class="w-8 h-8"
-			target="_blank"
-		>
-			<FacebookIcon />
-		</a>
-		<a
 			href="https://instagram.com/fructoland"
 			alt="Instagram"
 			class="w-8 h-8"
