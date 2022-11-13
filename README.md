@@ -1,10 +1,20 @@
 # [Fructo](https://fructo.land)
 
-This is the source code for Fructo.
+This repo hosts the source code for the homepage of Fructo.
 
-#### Folders:
+### Usage
 
-* [apex](/apex) - The main fructo.land site soruce code
+First install the packages:
+```console
+npm i
+```
 
-##### Coming soon:
-* [token](/token) - The FSHARE token smart contract source code
+To start the development server:
+```console
+npm run dev
+```
+
+To build for production:
+```console
+npm run build
+```
