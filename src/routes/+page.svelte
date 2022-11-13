@@ -40,7 +40,7 @@
 	>
 		<a 
 			class="flex-1"
-			href="https://paquet.shop"
+			href="https://paquet.fructo.land"
 			target="_blank"
 			alt="Paquet App"
 		>
