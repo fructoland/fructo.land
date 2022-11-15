@@ -3,13 +3,26 @@
 	import Container from "$lib/components/Container.svelte";
 	import Card from "../lib/components/Card.svelte";
 	import Header from "./Header.svelte";
+    import HighlightCard from "$lib/components/HighlightCard.svelte";
 </script>
 
 <Header />
 
+<Container>
+	<a href="https://blog.fructo.land" target="_blank">
+		<HighlightCard>
+			<b class="text-xl">NEW</b>
+			<br/>
+			We have a new blog! Check it out!
+			This is where we will post about our progress, achievements, and more!
+		</HighlightCard>
+	</a>
+</Container>
+
 <Container
 	class="grid grid-cols-1 grid-flow-cols sm:grid-cols-2 justify-center gap-4"
 >
+	
 	<div>
 		<h2 class="text-2xl">
 			Our mission

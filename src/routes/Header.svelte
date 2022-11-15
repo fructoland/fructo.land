@@ -1,6 +1,5 @@
 <script lang="ts">
 	import InstagramIcon from "svelte-icons/fa/FaInstagram.svelte";
-	import FacebookIcon from "svelte-icons/fa/FaFacebook.svelte";
 	import GitHubIcon from "svelte-icons/fa/FaGithub.svelte";
 	import TwitterIcon from "svelte-icons/fa/FaTwitter.svelte";
 	import DiscordIcon from "svelte-icons/fa/FaDiscord.svelte";
