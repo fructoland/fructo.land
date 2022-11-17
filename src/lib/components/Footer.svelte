@@ -4,7 +4,11 @@
 	const links: { href: string; text: string }[] = [
 		{
 			href: "https://blog.fructo.land",
-			text: "Blog",
+			text: "Blog"
+		},
+		{
+			href: "/governance",
+			text: "Governance"
 		}
 	];
 </script>
