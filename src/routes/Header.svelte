@@ -16,7 +16,7 @@
 	<h1
 		class="text-3xl mt-2"
 	>
-		Fructo
+		Fructoland
 	</h1>
 		<p class="opacity-75">
 			We make useful things

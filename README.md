@@ -1,6 +1,6 @@
-# [Fructo](https://fructo.land)
+# [Fructoland](https://fructo.land)
 
-This repo hosts the source code for the homepage of Fructo.
+This repo hosts the source code for the homepage of Fructoland.
 
 ### Usage
 

@@ -11,7 +11,7 @@
 		<a class="flex items-center" href="/">
 			<img
 				src="/logo-128x128.png"
-				alt="Fructo logo"
+				alt="Fructoland logo"
 				class="w-8 h-8 rounded-full"
 			/>
 		</a>
