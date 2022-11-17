@@ -28,7 +28,7 @@
 			Our mission
 		</h2>
 		<p>
-			Fructo is an organization that wants to bring back the original
+			Fructoland is an organization that wants to bring back the original
 			objective of technology - to bring information at our fingertips.
 			Our objective is to bring useful information at a glance.
 		</p>
