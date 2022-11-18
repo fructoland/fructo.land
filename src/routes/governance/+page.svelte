@@ -38,7 +38,7 @@ import Navbar from "$lib/components/Navbar.svelte";
 		</li>
 		<li>
 			Promoting Fructoland and any of its projects on social media
-			will earn you .5 tokens.
+			will earn you 0.5 tokens.
 		</li>
 	</ul>
 
