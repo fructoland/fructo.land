@@ -16,7 +16,7 @@ import Navbar from "$lib/components/Navbar.svelte";
 		We are open to any suggestions and contributions.
 		This way we can make Fructoland better.
 	</p>
-	<h2 class="text-2xl">
+	<h2 class="text-3xl">
 		Token
 	</h2>
 	<p>
